@@ -2,12 +2,12 @@
 MYIP=$(wget -qO- icanhazip.com);
 apt install jq curl -y
 read -p "Masukan Domain (contoh : namydev)" domen
-DOMAIN=mahpud.my.id
+DOMAIN=namystore.my.id
 sub=${domen}
 #(</dev/urandom tr -dc a-z0-9 | head -c5)
-dns=${sub}.mahpud.my.id
-CF_ID=namydev@gmail.com
-CF_KEY=87300cc5cb23db4e08e1b99be88076a9c0590
+dns=${sub}.namystore.my.id
+CF_ID=namydevz@gmail.com
+CF_KEY=43d2019a24907c539813a95301252e76d3223
 set -euo pipefail
 IP=$(wget -qO- icanhazip.com);
 echo "Updating DNS for ${dns}..."
