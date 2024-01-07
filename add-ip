@@ -27,11 +27,11 @@ checking_sc() {
 }
 checking_sc
 clear
-Repo1="https://raw.githubusercontent.com/namydeveloper/namytunnel/main/"
+Repo1="https://raw.githubusercontent.com/namydeveloper/Regist/main/"
 export MYIP=$( curl -s https://ipinfo.io/ip/ )
 SELLER=$(curl -sS ${Repo1}ip | grep $MYIP | awk '{print $2}')
 Exp100=$(curl -sS ${Repo1}ip | grep $MYIP | awk '{print $3}')
-data_ip="https://raw.githubusercontent.com/namydeveloper/namytunnel/main/afk"
+data_ip="https://raw.githubusercontent.com/namydeveloper/Regist/main/afk"
 d2=$(date -d "$date_list" +"+%s")
 d1=$(date -d "$Exp" +"+%s")
 dayleft=$(( ($d1 - $d2) / 86400 ))
