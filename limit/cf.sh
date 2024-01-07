@@ -4,7 +4,7 @@ apt install jq curl -y
 read -p "Masukan Domain (contoh : namydev)" domen
 DOMAIN=namystore.my.id
 sub=${domen}
-#(</dev/urandom tr -dc a-z0-9 | head -c5)
+(</dev/urandom tr -dc a-z0-9 | head -c5)
 dns=${sub}.namystore.my.id
 CF_ID=namydevz@gmail.com
 CF_KEY=43d2019a24907c539813a95301252e76d3223
