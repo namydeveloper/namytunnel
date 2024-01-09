@@ -123,7 +123,7 @@ mai="datediff "$Exp" "$DATE""
 Info="(${green}Active${NC})"
 Error="(${RED}ExpiRED${NC})"
 today=`date -d "0 days" +"%Y-%m-%d"`
-Exp1=$(curl https://raw.githubusercontent.com/Namydevz/Regist/MONSTER/afk | grep $MYIP | awk '{print $4}')
+Exp1=$(curl https://raw.githubusercontent.com/namydeveloper/Regist/main/afk | grep $MYIP | awk '{print $4}')
 if [[ $today < $Exp1 ]]; then
 sts="${Info}"
 else
@@ -132,7 +132,7 @@ fi
 echo -e "\e[32mloading...\e[0m"
 clear
 # REPO    
-    REPO="https://raw.githubusercontent.com/Namydevz/tunnel/MONSTER/"
+    REPO="https://raw.githubusercontent.com/namydeveloper/namytunnel/main/"
 
 ####
 start=$(date +%s)
@@ -311,8 +311,8 @@ clear
 clear
 #GANTI PASSWORD DEFAULT
 restart_system() {
-    USRSC=$(wget -qO- https://raw.githubusercontent.com/Namydevz/Regist/MONSTER/afk | grep $ipsaya | awk '{print $2}')
-    EXPSC=$(wget -qO- https://raw.githubusercontent.com/Namydevz/Regist/MONSTER/afk | grep $ipsaya | awk '{print $3}')
+    USRSC=$(wget -qO- https://raw.githubusercontent.com/namydeveloper/Regist/main/afk | grep $ipsaya | awk '{print $2}')
+    EXPSC=$(wget -qO- https://raw.githubusercontent.com/namydeveloper/Regist/main/afk | grep $ipsaya | awk '{print $3}')
     TIMEZONE=$(printf '%(%H:%M:%S)T')
     TEXT="
 <code>────────────────────</code>
