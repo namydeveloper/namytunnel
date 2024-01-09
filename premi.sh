@@ -35,7 +35,7 @@ clear;clear;clear
 
   # // Banner
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
-echo -e "  Welcome To NusantaraTunneling ${YELLOW}(${NC}${green} Stable Edition ${NC}${YELLOW})${NC}"
+echo -e "  Welcome To NamyTunneling ${YELLOW}(${NC}${green} Stable Edition ${NC}${YELLOW})${NC}"
 echo -e " This Will Quick Setup VPN Server On Your Server"
 echo -e "  Auther : ${green}Namy Tunnel${NC}${YELLOW}(${NC} ${green} Namy Tunnel${NC}${YELLOW})${NC}"
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
@@ -97,9 +97,9 @@ clear
 #########################
 # USERNAME
 rm -f /usr/bin/user
-username=$(curl https://raw.githubusercontent.com/Namydevz/Regist/MONSTER/afk | grep $MYIP | awk '{print $2}')
+username=$(curl https://raw.githubusercontent.com/namydeveloper/Regist/main/afkk | grep $MYIP | awk '{print $2}')
 echo "$username" >/usr/bin/user
-expx=$(curl https://raw.githubusercontent.com/Namydevz/Regist/MONSTER/afk | grep $MYIP | awk '{print $3}')
+expx=$(curl https://raw.githubusercontent.com/namydeveloper/Regist/main/afk | grep $MYIP | awk '{print $3}')
 echo "$expx" >/usr/bin/e
 # DETAIL ORDER
 username=$(cat /usr/bin/user)
