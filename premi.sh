@@ -132,7 +132,7 @@ fi
 echo -e "\e[32mloading...\e[0m"
 clear
 # REPO    
-    REPO="https://raw.githubusercontent.com/namydeveloper/namytunnel/main/"
+    REPO="https://raw.githubusercontent.com/namydeveloper/Regist/main/"
 
 ####
 start=$(date +%s)
