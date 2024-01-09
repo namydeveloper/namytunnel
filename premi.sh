@@ -97,7 +97,7 @@ clear
 #########################
 # USERNAME
 rm -f /usr/bin/user
-username=$(curl https://raw.githubusercontent.com/namydeveloper/Regist/main/afkk | grep $MYIP | awk '{print $2}')
+username=$(curl https://raw.githubusercontent.com/namydeveloper/Regist/main/afk | grep $MYIP | awk '{print $2}')
 echo "$username" >/usr/bin/user
 expx=$(curl https://raw.githubusercontent.com/namydeveloper/Regist/main/afk | grep $MYIP | awk '{print $3}')
 echo "$expx" >/usr/bin/e
